@@ -1,0 +1,74 @@
+body {
+  font-family: apple color emoji, segoe ui emoji, noto color emoji,
+    android emoji, emojisymbols, emojione mozilla, twemoji mozilla,
+    segoe ui symbol;
+
+  background-color: rgb(253, 227, 227);
+}
+.App {
+  border: 1px solid #fff;
+  margin: 100px 30%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow:-20px -20px 0px 0px rgba(100, 100, 100, 0.1);
+  background-color: #f36f6f;
+  
+
+}
+.App h2 {
+  color: #fff;
+
+  font-weight: normal;
+  font-size: 2.6rem;
+  letter-spacing: 0.05em;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.App .form1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App ul {
+  list-style: "📃";
+  cursor: pointer;
+  font-size: 22px;
+  color: #fff;
+  margin: 20px;
+}
+.App input {
+  width: 300px;
+  height: 40px;
+  /* border-radius: 10px; */
+  /* margin: 20px; */
+  border: none;
+}
+.App button {
+  display: block;
+  cursor: pointer;
+  /* margin: auto; */
+  width: 150px;
+  height: 42px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-left: 1px solid #000;
+  font-weight: 700;
+}
+.App .form2{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.App li {
+  /* word-wrap: break-word; */
+  overflow-wrap: break-word;
+}
+
+.diffstyle{
+  list-style: "✔️";
+  text-decoration: line-through;
+}
